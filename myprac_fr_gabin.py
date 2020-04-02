@@ -43,7 +43,7 @@ for i in range (0,100):
     pvec[i]=notre_lagrange(tvec[i],x,y)
     T[i]=math.sin(tvec[i])
     d[i]=abs(pvec[i]-T[i])
-plt.plot(tvec,pvec,color='black')
+plt.plot(tvec,pvec,color='brown') #I just change the color
 plt.scatter(x,y,color='red')
 plt.plot(tvec,T,color='green')
 plt.show()
